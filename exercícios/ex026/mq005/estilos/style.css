@@ -19,16 +19,16 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+div {
     display: block;
 }
 
-menu > ul {
+div > ul {
     list-style-type: none;
 }
 
-menu > ul > li > a {
-    display: none;
+div > ul > li > a {
+    display: block;
     padding: 10px;
     text-decoration: none;
     text-align: center;
@@ -51,7 +51,7 @@ span#menuzinho:hover {
     color:  rgba(3, 17, 26, 0.87)
 }
 
-menu > ul > li > a:hover {
+div > ul > li > a:hover {
     background-color: rgba(35, 114, 163, 0.527);
 }
 
